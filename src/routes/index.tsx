@@ -3,7 +3,7 @@ import { ArrowRight, ShieldCheck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ProductCard } from "@/components/ProductCard";
 import { categories, products } from "@/data/products";
-import heroImage from "@/assets/laptop-gaming.jpg";
+import heroImage from "@/assets/laptop-asus-rog-strix-g16.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -12,7 +12,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Shop gaming laptops, ultrabooks, business and budget laptops from Dell, HP, Lenovo, ASUS, Apple and Acer with secure Razorpay checkout.",
+          "Shop gaming laptops, ultrabooks, business and budget laptops from HP, Lenovo, ASUS, Apple and Acer with secure Razorpay checkout.",
       },
       { property: "og:title", content: "CircuitLane — Buy Laptops Online in India" },
       {
@@ -39,8 +39,8 @@ function Home() {
               Laptops that keep up with your ambition.
             </h1>
             <p className="mt-4 max-w-md text-muted-foreground">
-              Hand-picked machines from Dell, HP, Lenovo, ASUS, Apple and Acer — from ₹36,990 to
-              flagship creator rigs. Free delivery across India.
+              Hand-picked machines from HP, Lenovo, ASUS, Apple and Acer — from ₹24,990 to
+              flagship gaming rigs. Free delivery across India.
             </p>
             <div className="mt-7 flex flex-wrap gap-3">
               <Button asChild size="lg">
